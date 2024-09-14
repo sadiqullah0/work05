@@ -1,0 +1,58 @@
+.hometown { 
+    background: yellow;
+  }
+
+  .center {
+    text-align: center;
+    color: green;
+  }
+
+  #red {
+    background-color: red;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .BB{
+    background-color: rgb(194, 64, 64);
+  }
+
+  p.intro {
+    background-color: blue;
+  }
+  div > p {
+    background-color: yellow;
+  }
+  div + p {
+    background-color: pink;
+  }
+  p ~ ul {
+    background: #dc17c9;
+    color:white;
+  }
+  a:active {
+    background-color: rgb(253, 253, 0);  
+    text-decoration:none;
+  }
+  input:checked {
+    height: 100px;
+    width: 100px;
+  }
+  input[type=text]:enabled {
+    background: #5a5a09;
+  }
+  a:hover {
+    background-color: rgb(26, 226, 50);
+  }
+  h2:has(+p) {
+    color: gray;
+    border: 2px dotted red;
+  }
+  ::marker { 
+    color: red;
+  }
+  input:out-of-range {
+    border: 2px solid red;
+  }
